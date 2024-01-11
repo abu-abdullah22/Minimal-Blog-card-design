@@ -15,7 +15,7 @@ img {
     margin-bottom: 16px;
 }
 
-div {
+.container {
     border-radius: 16px;
     width: 71.25%;
     max-width: 368px;

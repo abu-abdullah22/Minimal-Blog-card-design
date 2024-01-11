@@ -2,6 +2,11 @@
 
 * {
     font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    color: #6C727F;
 }
 
 body {
@@ -20,11 +25,12 @@ img {
     width: 71.25%;
     max-width: 368px;
     margin: 164px auto;
-    padding: 20px;
+    /* padding: 20px; */
     /* display: flex; */
     flex-direction: column;
     justify-content: center;
     background-color: #ffffff;
+    overflow: hidden;
 
 
 }
@@ -52,4 +58,20 @@ button {
     border: none;
     margin-right: 300px;
     text-align: center;
+    color: #883AE1;
+}
+
+img,
+button,
+h2,
+p {
+    margin-left: 20px;
+
+}
+
+img,
+h2,
+p {
+    margin-top: 20px;
+    margin-right: 20px;
 }
